@@ -69,17 +69,73 @@ Outros datasets incluem informações complementares sobre jogos, times, estatí
   - `pandas`, `numpy` – manipulação de dados  
   - `matplotlib`, `seaborn` – visualização de gráficos  
   - `scikit-learn` – clusterização (KMeans, Elbow Method, etc.)  
-- **Ambiente:** Jupyter Notebook / VSCode  
+- **Ambiente:** Jupyter Notebook / VSCode
 
----
+--- 
 
 ## 🧠 Tarefas do Projeto
 
-### 🔗 [Tarefa 1 – Processo KDD e Clusterização](./tarefa1.md)
-> Clique acima para abrir a primeira tarefa.  
-> Neste arquivo serão inseridas **as informações detalhadas do processo**, **as imagens dos gráficos** e **as análises dos clusters** conforme o desenvolvimento avança.
+<details>
+<summary><b>🔗 Tarefa 1 – Processo KDD e Clusterização</b></summary>
+
+<br>
+
+Nesta tarefa serão incluídas **as informações detalhadas do processo KDD**, **as imagens dos gráficos** e **as análises dos clusters** conforme o desenvolvimento avança.
 
 ---
+
+### 📋 Descrição Geral
+O objetivo desta tarefa é aplicar o processo de **descoberta de conhecimento em bases de dados (KDD)** no conjunto de dados de futebol, realizando as etapas de:
+1. Seleção dos datasets relevantes  
+2. Limpeza e integração dos dados  
+3. Normalização e transformação  
+4. Execução da **clusterização (K-Means)**  
+5. Interpretação dos resultados obtidos
+
+---
+
+### 🧩 Datasets Utilizados
+- `appearances.csv`
+- `games.csv`
+- `players.csv`
+- `teams.csv`
+- `leagues.csv`
+- `shots.csv`
+- `teamstats.csv`
+
+---
+
+### ⚙️ Pré-processamento
+Atributos removidos após o merge:
+- `teamID` em *teamStats.csv* e *games.csv*  
+- `leagueID` em *appearances.csv* e *games.csv*  
+- `playerID` em *shots.csv* e *appearances.csv*
+
+> 🔍 Esses atributos foram substituídos por seus respectivos nomes (ex: jogador, time, liga) para facilitar a interpretação durante a clusterização.
+
+---
+
+### 📊 Visualizações (em andamento)
+As imagens dos gráficos gerados durante a análise serão adicionadas aqui:
+
+- Boxplot de verificação de outliers  
+  ![Boxplot exemplo](./images/boxplot_exemplo.png)
+
+- Gráfico de Elbow (definição do número de clusters)  
+  ![Elbow exemplo](./images/elbow_exemplo.png)
+
+- Visualização dos Clusters  
+  ![Clusters exemplo](./images/cluster_exemplo.png)
+
+---
+
+### 🧠 Análise dos Resultados
+As interpretações e conclusões obtidas com base nos clusters formados serão descritas aqui conforme o desenvolvimento avança.
+
+> Exemplo: “O Cluster 1 representa jogadores com alta taxa de gols e participação ofensiva, enquanto o Cluster 2 agrupa defensores com alta eficiência em desarmes.”
+
+---
+
 
 
 
@@ -93,18 +149,6 @@ Outros datasets incluem informações complementares sobre jogos, times, estatí
 ---
 
 
-
-## 📸 Imagens e Resultados
-
-As imagens (boxplots, gráficos de Elbow e clusters) serão adicionadas conforme forem geradas.
-
-> 📷 **Exemplo de prévia (em breve):**
->
-> ![Boxplot exemplo](./images/boxplot_exemplo.png)
->
-> ![Elbow Method exemplo](./images/elbow_exemplo.png)
-
----
 
 ## 📌 Licença
 
