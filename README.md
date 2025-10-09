@@ -52,7 +52,9 @@ O projeto segue as seguintes etapas do processo de **KDD**:
 Cada dataset contém atributos relevantes para a análise.  
 
 ### 🧾 Dataset: `appearances`
-<summary><b> Ver atributos appearances</b>
+<details>
+<summary><b>Ver Atributos apperances</b></summary>
+
 | Atributo | Tipo | Descrição |
 |-----------|------|------------|
 | gameID | int | Identificador do jogo |
@@ -74,10 +76,13 @@ Cada dataset contém atributos relevantes para a análise.
 | substituteIn | int | Jogador entrou em campo |
 | substituteOut | int | Jogador saiu de campo |
 | leagueID | int | Identificador da liga |
-</summary>
+
+</details>
 ---
 
 ### 🏟️ Dataset: `games`
+<details>
+<summary><b>Ver Atributos games</b></summary>
 
 | Atributo | Tipo | Descrição |
 |-----------|------|------------|
@@ -113,9 +118,12 @@ Cada dataset contém atributos relevantes para a análise.
 | VCD | float | VC: empate |
 | VCA | float | VC: vitória time visitante |
 
+</details>
 ---
 
 ### 🏆 Dataset: `leagues`
+<details>
+<summary><b>Ver Atributos leagues</b></summary>
 
 | Atributo | Tipo | Descrição |
 |-----------|------|------------|
@@ -123,18 +131,24 @@ Cada dataset contém atributos relevantes para a análise.
 | name | str | Nome da liga |
 | understatNotation | str | Sigla de identificação da liga |
 
+</details>
 ---
 
 ### 👟 Dataset: `players`
+<details>
+<summary><b>Ver Atributos players</b></summary>
 
 | Atributo | Tipo | Descrição |
 |-----------|------|------------|
 | playerID | int | Identificador do jogador |
 | name | str | Nome do jogador |
 
+</details>
 ---
 
 ### 🎯 Dataset: `shots`
+<details>
+<summary><b>Ver Atributos shots</b></summary>
 
 | Atributo | Tipo | Descrição |
 |-----------|------|------------|
@@ -150,18 +164,24 @@ Cada dataset contém atributos relevantes para a análise.
 | positionX | double | Coordenada X do chute |
 | positionY | double | Coordenada Y do chute |
 
+</details>
 ---
 
 ### 🛡️ Dataset: `teams`
+<details>
+<summary><b>Ver Atributos teams</b></summary>
 
 | Atributo | Tipo | Descrição |
 |-----------|------|------------|
 | teamID | int | Identificador do time |
 | name | str | Nome do time |
 
+</details>
 ---
 
 ### 📈 Dataset: `teamstats`
+<details>
+<summary><b>Ver Atributos teamstats</b></summary>
 
 | Atributo | Tipo | Descrição |
 |-----------|------|------------|
@@ -182,6 +202,7 @@ Cada dataset contém atributos relevantes para a análise.
 | redCards | int | Cartões vermelhos |
 | result | str | Resultado do jogo (“W”, “L”, “D”) |
 
+</details>
 ---
 
 Outros datasets incluem informações complementares sobre jogos, times, estatísticas e ligas.
