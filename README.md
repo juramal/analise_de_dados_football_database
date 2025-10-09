@@ -82,6 +82,7 @@ Outros datasets incluem informações complementares sobre jogos, times, estatí
 
 Nesta tarefa serão incluídas **as informações detalhadas do processo KDD**, **as imagens dos gráficos** e **as análises dos clusters** conforme o desenvolvimento avança.
 
+</details>
 ---
 
 ### 📋 Descrição Geral
