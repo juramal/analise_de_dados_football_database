@@ -52,16 +52,138 @@ O projeto segue as seguintes etapas do processo de **KDD**:
 Cada dataset contém atributos relevantes para a análise.  
 Exemplo do dataset `appearances`:
 
+### 🧾 Dataset: `appearances`
+
 | Atributo | Tipo | Descrição |
 |-----------|------|------------|
 | gameID | int | Identificador do jogo |
-| playerID | str | Identificador do jogador |
-| goals | int | Número de gols |
+| payerID | str | Identificador do jogador |
+| goals | int | Número de gols marcados |
+| ownGoals | int | Número de gols contra |
+| shots | int | Número de chutes do jogador |
+| xGoals | double | Probabilidade de um chute resultar em gol |
+| xGoalsChain | double | Posse de bola que resultou em um chute |
+| xGoalsBuildup | double | Contribuição do jogador para um chute |
 | assists | int | Número de assistências |
+| keyPasses | int | Passe final antes de um chute |
+| xAssists | double | Probabilidade de uma assistência resultar em gol |
 | position | str | Posição do jogador em campo |
+| positionOrder | int | Ordem da posição em campo |
 | yellowCard | int | Cartões amarelos recebidos |
 | redCard | int | Cartões vermelhos recebidos |
 | time | int | Minutos jogados |
+| substituteIn | int | Jogador entrou em campo |
+| substituteOut | int | Jogador saiu de campo |
+| leagueID | int | Identificador da liga |
+
+---
+
+### 🏟️ Dataset: `games`
+
+| Atributo | Tipo | Descrição |
+|-----------|------|------------|
+| gameID | int | Identificador do jogo |
+| leagueID | int | Identificador da liga |
+| season | int | Ano da temporada |
+| date | date_time | Data e hora do jogo |
+| homeTeamID | int | Identificador do time da casa |
+| awayTeamID | int | Identificador do time visitante |
+| homeGoals | int | Gols do time da casa |
+| awayGoals | int | Gols do time visitante |
+| homeProbability | float | Probabilidade de vitória do time da casa |
+| drawProbability | float | Probabilidade de empate |
+| awayProbability | float | Probabilidade de vitória do time visitante |
+| homeGoalsHalfTime | int | Gols do time da casa no intervalo |
+| awayGoalsHalfTime | int | Gols do time visitante no intervalo |
+| B365H | float | Bet365: vitória time da casa |
+| B365D | float | Bet365: empate |
+| B365A | float | Bet365: vitória time visitante |
+| BWH | float | BW: vitória time da casa |
+| BWD | float | BW: empate |
+| BWA | float | BW: vitória time visitante |
+| IWH | float | IW: vitória time da casa |
+| IWD | float | IW: empate |
+| IWA | float | IW: vitória time visitante |
+| PSH | float | PS: vitória time da casa |
+| PSD | float | PS: empate |
+| PSA | float | PS: vitória time visitante |
+| WHH | float | WH: vitória time da casa |
+| WHD | float | WH: empate |
+| WHA | float | WH: vitória time visitante |
+| VCH | float | VC: vitória time da casa |
+| VCD | float | VC: empate |
+| VCA | float | VC: vitória time visitante |
+
+---
+
+### 🏆 Dataset: `leagues`
+
+| Atributo | Tipo | Descrição |
+|-----------|------|------------|
+| leagueID | int | Identificador da liga |
+| name | str | Nome da liga |
+| understatNotation | str | Sigla de identificação da liga |
+
+---
+
+### 👟 Dataset: `players`
+
+| Atributo | Tipo | Descrição |
+|-----------|------|------------|
+| playerID | int | Identificador do jogador |
+| name | str | Nome do jogador |
+
+---
+
+### 🎯 Dataset: `shots`
+
+| Atributo | Tipo | Descrição |
+|-----------|------|------------|
+| gameID | int | Identificador do jogo |
+| shooterID | int | Jogador que realizou o chute |
+| assisterID | int | Jogador que deu assistência |
+| minute | int | Minuto do jogo do chute |
+| situation | str | Tipo de lance (ex: bola parada, contra-ataque) |
+| lastAction | str | Tipo da jogada anterior |
+| shotType | str | Pé utilizado no chute (esquerdo/direito) |
+| shotResult | str | Resultado do chute (gol, fora, bloqueado, etc.) |
+| xGoal | double | Probabilidade de um chute resultar em gol |
+| positionX | double | Coordenada X do chute |
+| positionY | double | Coordenada Y do chute |
+
+---
+
+### 🛡️ Dataset: `teams`
+
+| Atributo | Tipo | Descrição |
+|-----------|------|------------|
+| teamID | int | Identificador do time |
+| name | str | Nome do time |
+
+---
+
+### 📈 Dataset: `teamstats`
+
+| Atributo | Tipo | Descrição |
+|-----------|------|------------|
+| gameID | int | Identificador do jogo |
+| teamID | int | Identificador do time |
+| season | int | Ano da temporada |
+| date | date_time | Data e hora do jogo |
+| location | str | “h” para time da casa, “a” para visitante |
+| goals | int | Gols marcados pelo time |
+| xGoals | double | Probabilidade de um chute resultar em gol |
+| shots | int | Total de chutes realizados |
+| shotsOnTarget | int | Chutes no gol |
+| deep | int | Lances de fundo de área |
+| ppda | double | Índice de retomada de bola |
+| fouls | int | Faltas cometidas |
+| corners | int | Escanteios recebidos |
+| yellowCards | int | Cartões amarelos |
+| redCards | int | Cartões vermelhos |
+| result | str | Resultado do jogo (“W”, “L”, “D”) |
+
+---
 
 Outros datasets incluem informações complementares sobre jogos, times, estatísticas e ligas.
 
