@@ -50,10 +50,9 @@ O projeto segue as seguintes etapas do processo de **KDD**:
 ## 📊 Dados Utilizados
 
 Cada dataset contém atributos relevantes para a análise.  
-Exemplo do dataset `appearances`:
 
 ### 🧾 Dataset: `appearances`
-
+<summary><b> Ver atributos appearances</b>
 | Atributo | Tipo | Descrição |
 |-----------|------|------------|
 | gameID | int | Identificador do jogo |
@@ -75,7 +74,7 @@ Exemplo do dataset `appearances`:
 | substituteIn | int | Jogador entrou em campo |
 | substituteOut | int | Jogador saiu de campo |
 | leagueID | int | Identificador da liga |
-
+</summary>
 ---
 
 ### 🏟️ Dataset: `games`
