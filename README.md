@@ -9,7 +9,7 @@ Este projeto tem como objetivo compreender padrões de desempenho de jogadores, 
 ## 🧠 Tarefas do Projeto
 
 <details>
-<summary><b>🔗 Tarefa 1 – Processo KDD e Clusterização</b></summary>
+<summary><b>🔗 Ver TAREFA 1 – Processo KDD e Clusterização</b></summary>
 
 ## 📂 Estrutura do Projeto
 
