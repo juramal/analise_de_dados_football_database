@@ -240,17 +240,91 @@ Atributos removidos após o merge:
 
 ---
 
-### 📊 Visualizações (em andamento)
-As imagens dos gráficos gerados durante a análise serão adicionadas aqui:
+### 📊 Boxplots por Categoria de Dados
 
-- Boxplot de verificação de outliers  
-  ![Boxplot exemplo](./images/boxplot_exemplo.png)
+A seguir estão os **boxplots gerados para análise de outliers e distribuição dos atributos** em cada conjunto de dados.  
+As imagens estão organizadas em grupos de 4 para melhor visualização.
 
-- Gráfico de Elbow (definição do número de clusters)  
-  ![Elbow exemplo](./images/elbow_exemplo.png)
+---
 
-- Visualização dos Clusters  
-  ![Clusters exemplo](./images/cluster_exemplo.png)
+#### 🏟️ GameStats
+
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/gameStats/B365A.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/gameStats/B365D.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/gameStats/B365H.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/gameStats/awayGoals.png?raw=true" width="23%">
+</p>
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/gameStats/awayGoalsHalfTime.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/gameStats/awayProbability.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/gameStats/drawProbability.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/gameStats/homeGoals.png?raw=true" width="23%">
+</p>
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/gameStats/homeGoalsHalfTime.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/gameStats/homeProbability.png?raw=true" width="23%">
+</p>
+
+---
+
+#### 👟 PlayerStatsInGame
+
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/assists.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/goals.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/keyPasses.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/ownGoals.png?raw=true" width="23%">
+</p>
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/positionOrder.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/redCard.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/shots.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/substituteIn.png?raw=true" width="23%">
+</p>
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/substituteOut.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/time.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/xAssists.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/xGoals.png?raw=true" width="23%">
+</p>
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/xGoalsBuildUp.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/xGoalsChain.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/playerStatsinGame/yellowCard.png?raw=true" width="23%">
+</p>
+
+---
+
+#### 🎯 ShotStats
+
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/shotStats/minutes.png?raw=true" width="30%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/shotStats/positionX.png?raw=true" width="30%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/shotStats/positionY.png?raw=true" width="30%">
+</p>
+
+---
+
+#### 🛡️ TeamStats
+
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/teamStats/corners.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/teamStats/deep.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/teamStats/fouls.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/teamStats/goals.png?raw=true" width="23%">
+</p>
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/teamStats/ppda.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/teamStats/redCards.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/teamStats/shots.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/teamStats/shotsOnTarget.png?raw=true" width="23%">
+</p>
+<p align="center">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/teamStats/xGoals.png?raw=true" width="23%">
+  <img src="https://github.com/leonfagundes27/Assets/blob/main/boxsplot-datamining/teamStats/yellowCards.png?raw=true" width="23%">
+</p>
+
 
 ---
 
