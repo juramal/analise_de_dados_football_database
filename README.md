@@ -135,6 +135,7 @@ As interpretações e conclusões obtidas com base nos clusters formados serão 
 
 > Exemplo: “O Cluster 1 representa jogadores com alta taxa de gols e participação ofensiva, enquanto o Cluster 2 agrupa defensores com alta eficiência em desarmes.”
 
+<summary><b>🔗 FIM da Tarefa 1 – Processo KDD e Clusterização</b></summary>
 </details>
 ---
 
