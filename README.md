@@ -6,6 +6,11 @@ Este projeto tem como objetivo compreender padrões de desempenho de jogadores, 
 
 ---
 
+## 🧠 Tarefas do Projeto
+
+<details>
+<summary><b>🔗 Tarefa 1 – Processo KDD e Clusterização</b></summary>
+
 ## 📂 Estrutura do Projeto
 
 | Diretório / Arquivo | Descrição |
@@ -73,10 +78,7 @@ Outros datasets incluem informações complementares sobre jogos, times, estatí
 
 --- 
 
-## 🧠 Tarefas do Projeto
 
-<details>
-<summary><b>🔗 Tarefa 1 – Processo KDD e Clusterização</b></summary>
 
 <br>
 
