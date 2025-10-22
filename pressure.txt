@@ -1,0 +1,31 @@
+Médias por cluster:
+              ppda       win     goals    xGoals     shots  shotsOnTarget
+cluster                                                                  
+0        11.764463  0.264222  0.108334  0.168170  0.237211       0.202085
+1        14.956160  0.256951  0.104001  0.165242  0.236283       0.201114
+2         8.489111  0.456029  0.161691  0.236792  0.287947       0.273098
+3        10.306558  0.395759  0.142122  0.206988  0.272263       0.246828
+4        13.191230  0.261301  0.106924  0.163088  0.238236       0.203706
+5        18.240299  0.231424  0.104505  0.173887  0.237590       0.199914
+
+Cluster 0 - Times:
+['Alaves', 'Amiens', 'Augsburg', 'Bologna', 'Borussia M.Gladbach', 'Caen', 'Carpi', 'Cesena', 'Chievo', 'Cordoba', 'Elche', 'Everton', 'Frosinone', 'Genoa', 'Leicester', 'Lens', 'Levante', 'Mainz 05', 'Middlesbrough', 'Montpellier', 'Nancy', 'Nantes', 'Nice', 'Palermo', 'Pescara', 'Real Valladolid', 'SC Bastia', 'SD Huesca', 'Spezia', 'Sunderland', 'Verona', 'VfB Stuttgart', 'Watford', 'Werder Bremen']
+
+Cluster 1 - Times:
+['Angers', 'Arminia Bielefeld', 'Benevento', 'Brescia', 'Brest', 'Brighton', 'Crotone', 'FC Cologne', 'Freiburg', 'Fulham', 'Hull', 'Newcastle United', 'Parma Calcio 1913', 'Sheffield United', 'Udinese', 'Union Berlin', 'West Bromwich Albion', 'Wolverhampton Wanderers']
+
+Cluster 2 - Times:
+['Almeria', 'Atalanta', 'Athletic Club', 'Barcelona', 'Bayer Leverkusen', 'Bayern Munich', 'Celta Vigo', 'Eibar', 'Getafe', 'Hamburger SV', 'Ingolstadt', 'Leeds', 'Liverpool', 'Lyon', 'Malaga', 'Manchester City', 'Marseille', 'Paris Saint Germain', 'RasenBallsport Leipzig', 'Rayo Vallecano', 'Real Sociedad', 'Sevilla', 'Tottenham']
+
+Cluster 3 - Times:
+['AC Milan', 'Arsenal', 'Atletico Madrid', 'Bordeaux', 'Borussia Dortmund', 'Chelsea', 'Deportivo La Coruna', 'Eintracht Frankfurt', 'Empoli', 'Espanyol', 'Evian Thonon Gaillard', 'Fiorentina', 'GFC Ajaccio', 'Girona', 'Granada', 'Hoffenheim', 'Inter', 'Juventus', 'Las Palmas', 'Lazio', 'Leganes', 'Lille', 'Manchester United', 'Monaco', 'Napoli', 'Osasuna', 'Queens Park Rangers', 'Real Betis', 'Real Madrid', 'Rennes', 'Roma', 'Saint-Etienne', 'Sampdoria', 'Sassuolo', 'Schalke 04', 'Southampton', 'Sporting Gijon', 'Torino', 'Toulouse', 'Valencia', 'Villarreal', 'Wolfsburg']
+
+Cluster 4 - Times:
+['Aston Villa', 'Bournemouth', 'Burnley', 'Cagliari', 'Crystal Palace', 'Darmstadt', 'Dijon', 'Guingamp', 'Hannover 96', 'Hertha Berlin', 'Huddersfield', 'Lorient', 'Mallorca', 'Metz', 'Nimes', 'Norwich', 'Paderborn', 'Reims', 'SPAL 2013', 'Stoke', 'Strasbourg', 'Swansea', 'Troyes', 'West Ham']
+
+Cluster 5 - Times:
+['Cadiz', 'Cardiff', 'Fortuna Duesseldorf', 'Lecce', 'Nuernberg']
+
+Clusters mais eficientes (ppda baixo, win alto):
+Cluster 2: ppda=8.49, win=0.46, times=['Almeria', 'Atalanta', 'Athletic Club', 'Barcelona', 'Bayer Leverkusen', 'Bayern Munich', 'Celta Vigo', 'Eibar', 'Getafe', 'Hamburger SV', 'Ingolstadt', 'Leeds', 'Liverpool', 'Lyon', 'Malaga', 'Manchester City', 'Marseille', 'Paris Saint Germain', 'RasenBallsport Leipzig', 'Rayo Vallecano', 'Real Sociedad', 'Sevilla', 'Tottenham']
+Cluster 3: ppda=10.31, win=0.40, times=['AC Milan', 'Arsenal', 'Atletico Madrid', 'Bordeaux', 'Borussia Dortmund', 'Chelsea', 'Deportivo La Coruna', 'Eintracht Frankfurt', 'Empoli', 'Espanyol', 'Evian Thonon Gaillard', 'Fiorentina', 'GFC Ajaccio', 'Girona', 'Granada', 'Hoffenheim', 'Inter', 'Juventus', 'Las Palmas', 'Lazio', 'Leganes', 'Lille', 'Manchester United', 'Monaco', 'Napoli', 'Osasuna', 'Queens Park Rangers', 'Real Betis', 'Real Madrid', 'Rennes', 'Roma', 'Saint-Etienne', 'Sampdoria', 'Sassuolo', 'Schalke 04', 'Southampton', 'Sporting Gijon', 'Torino', 'Toulouse', 'Valencia', 'Villarreal', 'Wolfsburg']
