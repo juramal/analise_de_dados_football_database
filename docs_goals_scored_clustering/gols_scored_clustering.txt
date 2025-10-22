@@ -1,0 +1,92 @@
+================================================================================
+TOP 10 TIMES - MAIOR MÉDIA DE GOLS NO 1º TEMPO
+================================================================================
+ 1. Bayern Munich             | Gols: 0.578 | xG: 0.352 | Chutes: 0.4
+ 2. Manchester City           | Gols: 0.532 | xG: 0.333 | Chutes: 0.4
+ 3. Juventus                  | Gols: 0.527 | xG: 0.268 | Chutes: 0.3
+ 4. Paris Saint Germain       | Gols: 0.512 | xG: 0.350 | Chutes: 0.3
+ 5. Real Madrid               | Gols: 0.508 | xG: 0.326 | Chutes: 0.4
+ 6. Rayo Vallecano            | Gols: 0.495 | xG: 0.195 | Chutes: 0.3
+ 7. Borussia Dortmund         | Gols: 0.495 | xG: 0.302 | Chutes: 0.3
+ 8. Liverpool                 | Gols: 0.493 | xG: 0.270 | Chutes: 0.3
+ 9. Chelsea                   | Gols: 0.479 | xG: 0.257 | Chutes: 0.3
+10. Hoffenheim                | Gols: 0.478 | xG: 0.242 | Chutes: 0.3
+
+================================================================================
+CORRELAÇÕES COM GOLS NO 1º TEMPO
+================================================================================
+xGoals              : +0.2720
+shotsOnTarget       : +0.2399
+shots               : +0.0645
+ppda                : +0.0052
+corners             : -0.0396
+pressure_ordinal    : -0.0401
+
+Gerando visualizações...
+✓ 5 visualizações salvas em /docs
+
+================================================================================
+REGRESSÃO LINEAR - INFLUÊNCIA DAS VARIÁVEIS NOS GOLS
+================================================================================
+R² Score: 0.1250 | Intercepto: 0.2662
+
+Coeficientes (ordem de importância):
+  xGoals              : +1.241246
+  shots               : -1.055465
+  shotsOnTarget       : +0.868516
+  corners             : -0.012663
+  ppda                : +0.001351
+
+Calculando métricas para diferentes valores de K...
+K=2: Silhouette=0.5421 | Davies-Bouldin=0.6681 | Dunn=0.7027
+K=3: Silhouette=0.3147 | Davies-Bouldin=1.0565 | Dunn=0.3285
+K=4: Silhouette=0.2844 | Davies-Bouldin=1.0909 | Dunn=0.3441
+K=5: Silhouette=0.2921 | Davies-Bouldin=1.0536 | Dunn=0.4027
+K=6: Silhouette=0.2611 | Davies-Bouldin=1.0827 | Dunn=0.2954
+K=7: Silhouette=0.2725 | Davies-Bouldin=1.0069 | Dunn=0.3759
+K=8: Silhouette=0.2422 | Davies-Bouldin=1.1098 | Dunn=0.3667
+K=9: Silhouette=0.2451 | Davies-Bouldin=1.1039 | Dunn=0.3680
+K=10: Silhouette=0.2236 | Davies-Bouldin=1.1302 | Dunn=0.4158
+
+RECOMENDAÇÕES:
+  Melhor K por Silhouette Score:      2
+  Melhor K por Davies-Bouldin Index:  2
+  Melhor K por Dunn Index:            2
+  K Recomendado (Silhouette):         2
+
+================================================================================
+MÉTRICAS DO MODELO FINAL (K=2)
+================================================================================
+Silhouette Score:      0.5421 (range: -1 a 1, maior = melhor)
+Davies-Bouldin Index:  0.6681 (menor = melhor)
+Dunn Index:            0.7027 (maior = melhor)
+
+================================================================================
+
+CARACTERÍSTICAS DOS CLUSTERS:
+
+CLUSTER 0 (117 times):
+  Gols 1º tempo: 0.325
+  xGoals:        0.170
+  Chutes:        0.2
+  PPDA:          12.26
+  Exemplos: Palermo, Spezia, Atletico Madrid
+
+CLUSTER 1 (29 times):
+  Gols 1º tempo: 0.454
+  xGoals:        0.267
+  Chutes:        0.3
+  PPDA:          9.34
+  Exemplos: Bayern Munich, Manchester City, Juventus
+
+✓ Visualizações salvas em /docs
+
+✓ Exportado: docs\offensive_analysis.csv (146 times)
+
+================================================================================
+RESUMO
+================================================================================
+Registros analisados: 25360
+Times únicos: 146
+Temporadas: [np.int64(2014), np.int64(2015), np.int64(2016), np.int64(2017), np.int64(2018), np.int64(2019), np.int64(2020)]
+R² regressão: 0.1250
